@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="./style/custom.css">
+    <link rel="stylesheet" href="./style/custo.css">
     <title>Document</title>
 </head>
 <body>
@@ -25,7 +25,7 @@
             <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
             <li class="nav-item"><a class="nav-link" href="#produtos">Produtos</a></li>
             <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
-            <li class="nav-item"><a class="nav-link" href="cadastro.html">Cadastro</a></li>
+            <li class="nav-item"><a class="nav-link" href="cadastro.html">Cadastre-se</a></li>
         </ul>
     </div>
 
@@ -61,11 +61,10 @@
     <section id="sobre">
         <div class="container">
             <div class="row">
-                <div class="col-md-7 col-sm-12">
+                <div class="col-md-7 col-sm-12 sonos">
                     <h2>Sobre nós</h2>
                     <p>Nós somos uma loja de peças especializadas em freios</p>
                     <p>Trabalhamos com as marcas mais renomadas do mercado,sendo numero um  do mercado de peças de freios automotivas .Estamos há vinte anos no mercado.</p>
-                    <a class="btn btn-lg btn-success">Botão</a>
                 </div>
                 <div class="col-md-5 col-sm-12">
                     <img src="imagens/pecas.jpg" alt="Imagem Exemplo" class="img-fluid">
@@ -76,7 +75,7 @@
 
     <section id="produtos">
 
-        <div class="container">
+        <div class="container coo">
             <div class="row">
                 <div class="col">
 
@@ -87,7 +86,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Discos de freio</h5>
                             <p class="card-text">Responsavel por dimunuir a velocidade da roda</p>
-                            <a class="btn btn-primary btd" data-bs-toggle="modal" data-bs-target="#modal-1" >ver produto</a>
+                            <a class="btn btn-primary btd be" data-bs-toggle="modal" data-bs-target="#modal-1" >ver produto</a>
                         </div>
                     </div>
 
@@ -96,7 +95,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Pastilhas de freio</h5>
                             <p class="card-text">Responsavel pela maior parte da frenagem do carro em um sistema de freio a disco</p>
-                            <a class="btn btn-primary btd" data-bs-toggle="modal" data-bs-target="#modal-1" >ver produto</a>
+                            <a class="btn btn-primary btd " data-bs-toggle="modal" data-bs-target="#modal-1" >ver produto</a>
                         </div>
                     </div>
 
@@ -105,7 +104,7 @@
                         <div class="card-body sap">
                             <h5 class="card-title">Sapatas de freio</h5>
                             <p class="card-text">Responsavel pela maior parte da frenagem do carro em um sistema de freio a tambor</p>
-                            <a class="btn btn-primary btd" data-bs-toggle="modal" data-bs-target="#modal-1" >ver produto</a>
+                            <a class="btn btn-primary btd bi" data-bs-toggle="modal" data-bs-target="#modal-1" >ver produto</a>
                         </div>
                     </div>
                     
@@ -127,15 +126,15 @@
                     <form class="form">
 
                         <div class="input-group">
-                            <input class="form-control" type="text" name="nome" placeholder="digite seu nome">
+                            <input class="form-control" type="text" name="nome" placeholder="digite seu nome" required>
                         </div>
 
                         <div class="input-group">
-                            <input class="form-control" type="text" name="email" placeholder="digite seu email">
+                            <input class="form-control" type="email" name="email" placeholder="digite seu email" required>
                         </div>
 
                         <div class="input-group">
-                            <textarea  class="form-control" name="" rows="5"></textarea>
+                            <textarea  class="form-control" name="" rows="5" required></textarea>
                         </div>
 
                         <button type="submit" class="btn btn-lg btn-success">Solicitar Cotação</button>
